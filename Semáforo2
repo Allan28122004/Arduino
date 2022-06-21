@@ -1,0 +1,57 @@
+// Projeto conversor decimal-binário
+//Declaração de variaveis
+byte lamp[] = {2,3,4,5,6,7,8,9};
+float num;
+int num2;
+
+//inicialização das variaveis (vetor ou array)
+void setup(){
+	for(int i = 0;i <= sizeof(lamp);i++)
+		pinMode(lamp[a],OUTPUT);
+}
+	Serial.begin(9600);
+	Serial.println("Porfavor digite um valor:");
+	while(Serial.available() ==0){ 
+      
+	}
+   num = Serial.parseFloat();
+
+//Lógica ou execução das instruções
+void loop(){
+  if(int(num) == num) {
+    if(num > = [0]); && (num < = 255) {
+      num2 = int(num);
+      for(int z = 0; z <= sizeof(lamp); z++){
+        if(num2 % 2 == 1){
+          digitalWrite(lamp[z],1);
+         }
+         else{
+          digitalWrite(lamp[z],0);
+     }
+        num2 = num2 / 2;
+         }
+   }
+    
+  else{
+     Serial.println("numero fora da faixa!!!");
+   }
+ }
+  else{
+    Serial.println("numero inválido");
+  }
+  delay(5000);
+  Serial.flush();
+}
+
+void acende(){
+	for(int i = 0; i <= sizeof(lamp);i++
+	    digitalWrite(lamp[1],1); //HIGH
+	    delay(500);
+	}
+}
+
+ void apagatudo(){
+   for(int x = 0; x <= sizeof(lamp);x++{
+	    digitalWrite(lamp[x],0); // LOW
+}
+
